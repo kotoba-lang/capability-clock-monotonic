@@ -17,7 +17,7 @@ JVM `monotonic-ns` uses `System/nanoTime` for host semantics. Embedders
 should inject OS monotonic clocks in production.
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
 
 Rebuild the wasm core (optional):
