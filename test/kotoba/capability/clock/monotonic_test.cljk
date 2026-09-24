@@ -1,5 +1,5 @@
 (ns kotoba.capability.clock.monotonic-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [clojure.java.io :as io]
             [kotoba.capability.clock.monotonic :as capability]
             [kotoba.capability.clock.monotonic.provider :as provider]
